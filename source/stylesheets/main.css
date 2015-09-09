@@ -49,6 +49,9 @@ body {
   padding-right: 1rem;
 }
 
+img {
+  width: 100%;
+}
 /* infoFolder */
 
 .info-topic {
