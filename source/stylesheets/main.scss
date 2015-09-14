@@ -1,0 +1,83 @@
+/***********
+*  Colors  *
+***********/
+
+$base-color: beige;
+$left-nav-color: saddlebrown;
+$left-nav-text-color: steelblue;
+$nav-bar-color: steelblue;
+$info-topic-color: yellow;
+$info-topic-back-color: rgba(0,0,0,0);
+$info-content-color: tomato;
+$index-color: honeydew;
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: $base-color;
+}
+
+.navigations {
+  background-color: $left-nav-color;
+}
+
+.nav-bar {
+  text-align: center;
+  background-color: $nav-bar-color;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.main {
+  padding-top: 2rem;
+  background-color: $base-color;
+}
+
+.main h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', sans-serif;
+  clear: both;
+}
+
+.page-index {
+  list-style: none;
+}
+
+.page-index li {
+  background-color: $index-color;
+}
+
+.page-index li a {
+  text-decoration: none;
+  color: $left-nav-text-color;;
+}
+
+.main p {
+  word-break: normal;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+img {
+  width: 100%;
+}
+/* infoFolder */
+
+.info-topic {
+  background-color: $info-topic-back-color;
+}
+
+.info-topic div {
+  background-color: $info-content-color;
+  margin-bottom: 5px;
+}
+
+.info-topic h1 {
+  background-color: $info-topic-color;
+  font-size: 2rem;
+}
+
