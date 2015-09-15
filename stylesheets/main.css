@@ -1,0 +1,70 @@
+/***********
+*  Colors  *
+***********/
+/* line 15, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+body {
+  background-color: beige; }
+
+/* line 19, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.navigations {
+  background-color: saddlebrown; }
+
+/* line 23, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.nav-bar {
+  text-align: center;
+  background-color: steelblue; }
+
+/* line 28, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.nav-list {
+  list-style: none; }
+
+/* line 32, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.nav-list li {
+  display: inline-block; }
+
+/* line 36, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.main {
+  padding-top: 2rem;
+  background-color: beige; }
+
+/* line 41, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.main h1, h2, h3, h4, h5, h6 {
+  clear: both; }
+
+/* line 45, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.page-index {
+  list-style: none; }
+
+/* line 49, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.page-index li {
+  background-color: honeydew; }
+
+/* line 53, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.page-index li a {
+  text-decoration: none;
+  color: steelblue; }
+
+/* line 58, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.main p {
+  word-break: normal;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+/* line 64, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+img {
+  width: 100%; }
+
+/* infoFolder */
+/* line 69, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.info-topic {
+  background-color: transparent; }
+
+/* line 73, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.info-topic div {
+  background-color: tomato;
+  margin-bottom: 5px; }
+
+/* line 78, /Users/chriscaragianis/Code/lfpl_middleman/source/stylesheets/main.scss */
+.info-topic h1 {
+  background-color: yellow;
+  font-size: 2rem; }
